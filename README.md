@@ -17,12 +17,20 @@ First Typer experiments
 
 ## commands
 
-- help `python typer_tutorial/main.py --help`
+- help `typer --help`
 
-- hi `python typer_tutorial/main.py <name>`
+- hi `typer hello <name>`
 
-- formal hi `python typer_tutorial/main.py <name> --formal`
+- formal hi `typer hello <name> --formal`
 
-- hi with lastname `python typer_tutorial/main.py <name> --last-name <lastname>`
+- hi with lastname `typer hello <name> --last-name <lastname>`
 
-- formal hi with lastname `python typer_tutorial/main.py <name> --last-name <lastname> --formal`
+- formal hi with lastname `typer hello <name> --last-name <lastname> --formal`
+
+- goodbye `typer goodbye <name>`
+
+- formal goodbye `typer goodbye <name> --formal`
+
+- goodbye with lastname `typer goodbye <name> --last-name <lastname>`
+
+- formal goodbye with lastname `typer goodbye <name> --last-name <lastname> --formal`
