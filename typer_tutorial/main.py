@@ -2,8 +2,11 @@ import typer
 
 
 
-def main(name: str, last_name: str):
-    typer.echo(f'Hello {name} {last_name}')
+def main(name: str, last_name: str, formal: bool = False):
+    if formal:
+        typer.echo(f'Good Day mr. {name} {last_name}')
+    else:
+        typer.echo(f'Hello {name} {last_name}')
 
 
 
