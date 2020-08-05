@@ -2,7 +2,7 @@ import typer
 
 
 
-def main(name: str, last_name: str, formal: bool = False):
+def main(name: str, last_name: str = '', formal: bool = False):
     if formal:
         typer.echo(f'Good Day mr. {name} {last_name}')
     else:
